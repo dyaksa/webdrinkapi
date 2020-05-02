@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.jumbotron {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-family: "Lato";
+}
+
+.bg-cover {
+    background: url("https://www.bulleit.com/images/background/out/2048/frontier-old-fashioned-hero.jpg");
+    object-fit: cover;
+    object-position: center center;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+    color: white;
+}
+
+.overlay {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #00BCD4;
+    margin-top: 20px;
+    color: white;
+}
